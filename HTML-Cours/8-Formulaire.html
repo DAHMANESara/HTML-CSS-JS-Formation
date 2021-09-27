@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <title>HTML forms</title>
+  </head>
+  <body>
+    <h1>Inscription</h1>
+    <form>
+      <p>
+        <label for="nom">Nom :</label
+        ><input id="nom" type="text" placeholder="Ex: Christian" />
+      </p>
+      <p>
+        <label for="email">Email : </label
+        ><input id="email" type="email" placeholder="Ex : jojo@gmail.com" />
+      </p>
+      <p><label for="age">Age : </label><input type="number" id="age" /></p>
+      <p>
+        <label for="motDePasse">Mot de passe : </label
+        ><input id="motDePasse" type="password" />
+      </p>
+      <p>
+        <label> pays : </label>
+        <select>
+          <option>France</option>
+          <option>Italy</option>
+          <option>Maroc</option>
+          <option>Espagne</option>
+        </select>
+      </p>
+      <p>
+        <label for="bio">biographie</label>
+        <textarea id="bio" maxlength="40"></textarea>
+      </p>
+      <p>
+        <label> Fruits preferes</label><br />
+        <input type="checkbox" />pomme<br />
+        <input type="checkbox" />mangue<br />
+        <input type="checkbox" />annnas<br />
+      </p>
+      <input type="submit" value="Envoyer" />
+    </form>
+  </body>
+</html>
