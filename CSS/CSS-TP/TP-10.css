@@ -1,0 +1,35 @@
+.parent {
+  border: 3px solid black;
+  display: grid;
+  font-size: 30px;
+  /* grid-template-columns: 1fr 1fr 1fr; */
+  grid-template-columns: repeat(4, 1fr);
+  grid-auto-rows: 100px;
+  grid-template-areas: "logo services expertise contact";
+
+  /* grid-template-rows: 400px 200px 20px; */
+  /* grid-gap: 100px; */
+}
+
+.child {
+  border: 2px solid black;
+  margin: auto;
+  padding: 2%;
+  width: 80%;
+}
+
+.child:nth-child(1) {
+  grid-area: logo;
+}
+
+.child:nth-child(2) {
+  grid-area: services;
+}
+
+.child:nth-child(3) {
+  grid-area: expertise;
+}
+
+.child:nth-child(4) {
+  grid-area: contact;
+}

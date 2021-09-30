@@ -1,0 +1,36 @@
+body {
+  background-color: #949999;
+  margin-right: 10%;
+  margin-left: 10%;
+}
+tbody > tr:nth-child(even) {
+  background-color: rgb(243, 239, 239);
+}
+.blacktab {
+  background-color: black;
+  color: white;
+}
+.yearsbold {
+  font-weight: bold;
+}
+.typescript_bloc {
+  color: red;
+}
+
+img {
+  width: 100%;
+}
+figure {
+  background-color: black;
+  padding: 3%;
+  border: 2px solid red;
+  color: white;
+  margin: auto;
+}
+
+.styledup {
+  color: indigo;
+  width: 90%;
+  margin: auto;
+  border-style: dashed;
+}

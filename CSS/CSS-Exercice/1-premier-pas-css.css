@@ -1,0 +1,36 @@
+body {
+  background-color: rgb(176, 148, 240);
+}
+p {
+  color: white;
+}
+
+h1 {
+  color: red;
+}
+.test-class,
+.em1 {
+  color: brown;
+  font-weight: bold;
+}
+#MRBEAN {
+}
+
+.spantest {
+  color: coral;
+}
+
+.testtaille {
+  /*  font-size: 90px; */
+  /*  font-size: 100%; */
+  font-size: small;
+}
+.testpolice {
+  font-family: "Courier New", Courier, monospace, sans-serif;
+  font-style: italic;
+  /*font-style: OBLIQUE OU NORMAL; */
+  font-weight: BOLD;
+}
+.souligne {
+  text-decoration: line-through; /*(underline) underline , line-through, overline ,none */
+}
