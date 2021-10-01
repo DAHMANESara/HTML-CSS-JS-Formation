@@ -10,4 +10,6 @@ if (TonAge >= 7 && TonAge <= 9) {
   alert("Minime");
 } else if (TonAge >= 16 && TonAge <= 17) {
   alert("Cadet");
+} else {
+  alert("Cette personne ne rentre dans aucune categorie");
 }
