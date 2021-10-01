@@ -47,7 +47,7 @@ if (motDepasse < 8) {
 }
 while((motDepasse.length < 8)
 
-//BREAK
+//BREAK fait sortir de la boucle
 
 for (let i= 0 ; i<= 100; i++)
 {
@@ -56,10 +56,10 @@ for (let i= 0 ; i<= 100; i++)
 }
 console.log(i)
 
-//CONTINU 
+//CONTINUE elle ignore la condition si elle est vrai et passe au suivante 
 for (let i= 0 ; i<= 100; i++)
 {
     if(i%2==0)
-        {continu}
+        {continue}
 }
 console.log(i)
