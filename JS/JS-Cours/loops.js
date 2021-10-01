@@ -55,3 +55,11 @@ for (let i= 0 ; i<= 100; i++)
         {break}
 }
 console.log(i)
+
+//CONTINU 
+for (let i= 0 ; i<= 100; i++)
+{
+    if(i%2==0)
+        {continu}
+}
+console.log(i)
