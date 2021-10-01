@@ -36,7 +36,7 @@ while (motDepasse.length < 8) {
   }
 }
 
-// do{} while() 
+// do{} while() rentre au moins une fois dans la boucle
 do{
 motDepasse = prompt("veuillez saisir votre mot de passe : ");
 if (motDepasse < 8) {
@@ -46,3 +46,12 @@ if (motDepasse < 8) {
 }
 }
 while((motDepasse.length < 8)
+
+//BREAK
+
+for (let i= 0 ; i<= 100; i++)
+{
+    if(i==50)
+        {break}
+}
+console.log(i)
