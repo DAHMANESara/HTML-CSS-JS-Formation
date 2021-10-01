@@ -24,3 +24,25 @@ for (
 ) {
   console.log(nom[i]);
 }
+// WHILE
+let motDepasse = "";
+
+while (motDepasse.length < 8) {
+  motDepasse = prompt("veuillez saisir votre mot de passe : ");
+  if (motDepasse < 8) {
+    alert("doit contenir au moins 8");
+  } else {
+    alert("le mot de passe respecte les condi");
+  }
+}
+
+// do{} while() 
+do{
+motDepasse = prompt("veuillez saisir votre mot de passe : ");
+if (motDepasse < 8) {
+  alert("doit contenir au moins 8");
+} else {
+  alert("le mot de passe respecte les condi");
+}
+}
+while((motDepasse.length < 8)
